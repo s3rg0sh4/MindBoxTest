@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTest", "MindBoxTest\MindBoxTest.csproj", "{BDE13A91-5613-4B14-804E-ACDFC5732CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTestTests", "UnitTestProject1\MindBoxTestTests.csproj", "{97284582-79F2-449F-96DF-C7EB2B0D36DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTest.Tests", "UnitTestProject1\MindBoxTest.Tests.csproj", "{97284582-79F2-449F-96DF-C7EB2B0D36DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
