@@ -37,5 +37,18 @@ namespace MindBoxTestTests
 			Assert.AreEqual(6, triangle.Area());
 		}
 
+		[TestMethod]
+		public void IsRight_WithAnyValues1()
+		{
+			var triangle = new Triangle(3, 4, 5);
+			Assert.AreEqual(true, triangle.IsRight());
+		}
+		[TestMethod]
+		public void IsRight_WithAnyValues2()
+		{
+			var triangle = new Triangle(4, 4, 6);
+			Assert.AreEqual(false, triangle.IsRight());
+		}
+
 	}
 }
